@@ -27,11 +27,11 @@
             <nav>
                 <h3>Hoofdmenu</h3>
                 <ul>
-                    <li><a href="{{ path('home') }}">Home</a></li>
-                    <li><a href="{{ path('contact') }}">Ons contacteren</a></li>
-                    <li><a href="{{ path('satelliet') }}">Satelliet Info</a></li>
-                    <li><a href="{{ path('hsware') }}">PC Hard&ndash; en Software</a></li>
-                    <li><a href="{{ path('tweedehands') }}">Tweede Hands</a></li>
+                    <li><a href="{{ app.request.baseUrl }}">Home</a></li>
+                    <li><a href="{{ app.request.baseUrl }}/contact">Ons contacteren</a></li>
+                    <li><a href="{{ app.request.baseUrl}}/satelliet">Satelliet Info</a></li>
+                    <li><a href="{{ app.request.baseUrl }}/hsware">PC Hard&ndash; en Software</a></li>
+                    <li><a href="{{ app.request.baseUrl }}/tweedehands">Tweede Hands</a></li>
                 </ul>
 
                 <h3>Nieuwsbrief</h3>

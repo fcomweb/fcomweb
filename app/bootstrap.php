@@ -28,13 +28,8 @@ $app->register(new Silex\Provider\TwigServiceProvider(), array(
 	'twig.path' => __DIR__ .  DIRECTORY_SEPARATOR . '..' . DIRECTORY_SEPARATOR . 'src' . DIRECTORY_SEPARATOR . 'views'
 ));
 
-$app->register(new Silex\Provider\UrlGeneratorServiceProvider());
-
 $app->register(new Silex\Provider\FormServiceProvider());
 
-$app->register(new Silex\Provider\MonologServiceProvider(), array(
-    'monolog.logfile' => __DIR__ . '/development.log',
-));
 
 // App Configuration
 $app['debug'] = true;
