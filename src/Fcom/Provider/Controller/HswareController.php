@@ -15,7 +15,7 @@ class HswareController implements ControllerProviderInterface {
 		$controllers = $app['controllers_factory'];
 
 		// Bind sub-routes
-		$controllers->get('/', array($this, 'hsware'))->bind('hsware');
+		$controllers->get('/', array($this, 'hsware'));
 
 		return $controllers;
 
