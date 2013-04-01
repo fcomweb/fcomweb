@@ -1,0 +1,11 @@
+{% extends 'layout.twig' %}
+
+{% set pageTitle= 'Fcom - Satelliet info' %}
+
+{% block pageContent %}
+    <article>
+        <h2>{{ satelliet.titel }}</h2>
+        <p>{{ satelliet.beschrijving }}</p>
+        <p>Het id van deze satelliet: {{ satelliet.satellietenId }}</p>
+    </article>
+{% endblock %}

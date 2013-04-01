@@ -1,0 +1,13 @@
+{% extends 'layout.twig' %}
+
+{% set pageTitle= 'Fcom - Satelliet info' %}
+
+{% block pageContent %}
+    <article>
+        {% for satelliet in satellieten %}
+            <article>
+                <p><a href="{{ path('satelliet.detail', { id: satelliet.satellietenId }) }}"> {{ satelliet.titel }}</a></p>
+            </article>
+        {% endfor %}
+    </article>
+{% endblock %}

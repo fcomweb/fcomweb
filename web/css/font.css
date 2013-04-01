@@ -1,0 +1,19 @@
+	/**
+	 * 	SegoeUI Font
+	 */
+	
+	@font-face {
+		font-family: 'SegoeUI';
+		src: url(../fonts/segoeui.ttf);
+	}
+	
+	@font-face {
+		font-family: 'SegoeUIBold';
+		src: url(../fonts/segoeuib.ttf);
+	}
+	
+	@font-face {
+		font-family: 'SegoeUIItalic';
+		src: url(../fonts/segoeuii.ttf);
+	}
+

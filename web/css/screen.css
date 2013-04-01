@@ -1,0 +1,265 @@
+/*
+ * General  
+ */
+
+body {
+	background-color: rgb(217,240,247);
+}
+
+div#wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+body * {
+    font-family: 'SegoeUI';
+    font-size: 12px;
+}
+
+/*
+ * Header
+ */
+
+header {
+	display: block;
+	margin-bottom: 15px;
+}
+
+header h1 {
+	display: block;
+	overflow: hidden;
+	text-indent: -100%;
+	background-image: url('../img/header.png');
+    background-repeat: no-repeat;
+	height: 355px;
+
+    border-left: 1px solid #dde2f8;
+    border-bottom: 1px solid #dde2f8;
+    border-right: 1px solid #dde2f8;
+
+    -moz-border-radius-bottomleft: 5px;
+    -moz-border-radius-bottomright: 5px;
+    -o-border-radius-bottomleft: 5px;
+    -o-border-radius-bottomright: 5px;
+    -webkit-border-radius-bottomleft: 5px;
+    -webkit-border-radius-bottomright: 5px;
+    -ms-border-radius-bottomleft: 5px;
+    -ms-border-radius-bottomright: 5px;
+    border-radius-bottomleft: 5px;
+    border-radius-bottomright: 5px;
+}
+
+
+/*
+ * Container
+ */
+
+div#container {
+	display: block;
+	padding: 8px;
+	border: 1px solid #dde2f8;
+    background-color: #e7f6fd;
+}
+
+
+/*
+ * Navigation
+ */
+
+nav {
+	display: block;
+	float: left;
+	width: 200px;
+	height: 100%;
+}
+
+nav h3 {
+    display: block;
+    width: 160px;
+    height: 36px;
+    background: url("../img/menu_header.png") no-repeat left;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -o-border-radius: 5px;
+    -ms-border-radius: 5px;
+
+    color: #4859a1;
+    font-family: 'SegoeUI';
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 37px;
+    padding-left: 30px;
+    text-transform: uppercase;
+
+    margin-bottom: 10px;
+}
+
+nav ul {
+    margin: 0 0 15px 10px;
+}
+
+nav p {
+    margin: 0 0 15px 18px;
+}
+
+nav form {
+    margin: 0 0 15px 15px;
+}
+
+nav dl {
+    margin: 0 0 15px 15px;
+}
+
+nav dl dt {
+    margin-top: 5px;
+}
+
+nav dl dd {
+    margin: 0 0 0 20px;
+}
+
+nav ul li {
+    list-style-type: circle;
+    font-family: 'SegoeUI';
+    font-size: 8px;
+    line-height: 20px;
+    color: #a9bbaf;
+    margin-left: 20px;
+}
+
+nav ul li a {
+    font-family: 'SegoeUI';
+    text-decoration: none;
+    font-size: 14px;
+    color: #478da1;
+
+}
+
+nav ul li a:hover {
+    color: #a9bbaf;
+}
+
+nav form input[type="text"] {
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #dde2f8;
+    font-size: 13px;
+}
+
+nav form input[type="email"] {
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #dde2f8;
+    font-size: 13px;
+}
+
+@-o-keyframes pulse {
+    from {-webkit-box-shadow: 0 0 9px #478da1;}
+    50% {-webkit-box-shadow: 0 0 9px #a9bbaf;}
+    to {-webkit-box-shadow: 0 0 9px #478da1;}
+}
+
+@-webkit-keyframes pulse {
+    from {-webkit-box-shadow: 0 0 9px #478da1;}
+    50% {-webkit-box-shadow: 0 0 9px #a9bbaf;}
+    to {-webkit-box-shadow: 0 0 9px #478da1;}
+}
+
+@-moz-keyframes pulse {
+    from {-webkit-box-shadow: 0 0 9px #478da1;}
+    50% {-webkit-box-shadow: 0 0 9px #a9bbaf;}
+    to {-webkit-box-shadow: 0 0 9px #478da1;}
+}
+
+@keyframes pulse {
+    from {-webkit-box-shadow: 0 0 9px #478da1;}
+    50% {-webkit-box-shadow: 0 0 9px #a9bbaf;}
+    to {-webkit-box-shadow: 0 0 9px #478da1;}
+}
+
+nav form input[type="submit"] {
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid #dde2f8;
+    margin-top: 5px;
+    padding: 10px;
+    background: url("../img/menu_header.png") no-repeat 50% 50%;
+
+    line-height: 8px;
+    font-size: 11px;
+    font-weight: bold;
+    color: #4859a1;
+}
+
+nav form input[type="submit"]:hover {
+    -webkit-animation-name: pulse;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+
+    -o-animation-name: pulse;
+    -o-animation-duration: 2s;
+    -o-animation-iteration-count: infinite;
+
+    -moz-animation-name: pulse;
+    -moz-animation-duration: 2s;
+    -moz-animation-iteration-count: infinite;
+
+    animation-name: pulse;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+
+}
+
+nav form input:focus {
+    border: 1px dashed #dde2f8;
+}
+
+/*
+ * Content
+ */
+
+section#content {
+	display: block;
+	width: 600px;
+	float: left;
+	margin: 0 10px 0 10px;
+}
+
+section#content h2 {
+    display: inline-block;
+    font-size: 24px;
+    font-weight: bold;
+    color: #478da1;
+
+
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    width: 550px;
+    border-bottom: 1px solid #4859a1;
+}
+
+section#content p {
+    width: 550px;
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+/*
+ * Aside
+ */
+
+aside {
+	display: block;
+	float: left;
+    width: 120px;
+}
+
+.adds{
+    float: right;
+    width: 120px;
+    height: 600px;
+    border: 0px;
+}
+
