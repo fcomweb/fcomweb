@@ -15,7 +15,7 @@ class TweedehandsController implements ControllerProviderInterface {
 		$controllers = $app['controllers_factory'];
 
 		// Bind sub-routes
-		$controllers->get('/', array($this, 'tweedehands'));
+		$controllers->get('/', array($this, 'tweedehands'))->bind('tweedehands');
 
 		return $controllers;
 

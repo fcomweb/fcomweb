@@ -15,7 +15,7 @@ class ContactController implements ControllerProviderInterface {
 		$controllers = $app['controllers_factory'];
 
 		// Bind sub-routes
-		$controllers->get('/', array($this, 'contact'));
+		$controllers->get('/', array($this, 'contact'))->bind('contact');
 
 		return $controllers;
 

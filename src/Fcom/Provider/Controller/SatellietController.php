@@ -15,8 +15,8 @@ class SatellietController implements ControllerProviderInterface {
 		$controllers = $app['controllers_factory'];
 
 		// Bind sub-routes
-		$controllers->get('/', array($this, 'satelliet'));
-        $controllers->get('/{id}', array($this, 'detail'))->assert('id', '\d+');
+		$controllers->get('/', array($this, 'satelliet'))->bind('satelliet');
+        $controllers->get('/{id}', array($this, 'detail'))->assert('id', '\d+')->bind('satelliet.detail');
 		return $controllers;
 	}
 

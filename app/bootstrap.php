@@ -29,7 +29,7 @@ $app->register(new Silex\Provider\TwigServiceProvider(), array(
 ));
 
 $app->register(new Silex\Provider\FormServiceProvider());
-
+$app->register(new Silex\Provider\UrlGeneratorServiceProvider());
 
 // App Configuration
 $app['debug'] = true;

@@ -6,7 +6,7 @@
     <article>
         {% for satelliet in satellieten %}
             <article
-                <p><a href="{{ app.request.baseUrl }}/satelliet/{{ satelliet.satellietenId }}"> {{ satelliet.titel }}</a></p>
+                <p><a href="{{ path('satelliet.detail', { id: satelliet.satellietenId }) }}"> {{ satelliet.titel }}</a></p>
             </article>
         {% endfor %}
     </article>

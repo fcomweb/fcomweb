@@ -15,7 +15,7 @@ class HomeController implements ControllerProviderInterface {
 		$controllers = $app['controllers_factory'];
 
 		// Bind sub-routes
-		$controllers->get('/', array($this, 'home'));
+		$controllers->get('/', array($this, 'home'))->bind('home');
 
 		return $controllers;
 
