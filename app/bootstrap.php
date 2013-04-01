@@ -12,7 +12,7 @@ $app->register(new Silex\Provider\DoctrineServiceProvider(),
 			'db.options' => array(
                 'dbname' => 'fcom',
                 'user' => 'root',
-                'password' => 'Azerty123',
+                'password' => 'root',
                 'host' => 'localhost',
                 'driver' => 'pdo_mysql'
 				)
