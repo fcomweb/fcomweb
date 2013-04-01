@@ -2,19 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2f35e2dd-5c01-4ff0-bc74-7d807f993d60" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Fcom/Provider/Controller/ContactController.php" afterPath="$PROJECT_DIR$/src/Fcom/Provider/Controller/ContactController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Fcom/Provider/Controller/HomeController.php" afterPath="$PROJECT_DIR$/src/Fcom/Provider/Controller/HomeController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Fcom/Provider/Controller/HswareController.php" afterPath="$PROJECT_DIR$/src/Fcom/Provider/Controller/HswareController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Fcom/Provider/Controller/SatellietController.php" afterPath="$PROJECT_DIR$/src/Fcom/Provider/Controller/SatellietController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Fcom/Provider/Controller/TweedehandsController.php" afterPath="$PROJECT_DIR$/src/Fcom/Provider/Controller/TweedehandsController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/bootstrap.php" afterPath="$PROJECT_DIR$/app/bootstrap.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/layout.twig" afterPath="$PROJECT_DIR$/src/views/layout.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/views/satelliet/satelliet.twig" afterPath="$PROJECT_DIR$/src/views/satelliet/satelliet.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config.php" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/testfile" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="fcomweb.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="2f35e2dd-5c01-4ff0-bc74-7d807f993d60" time="1364836318090" ignored="false" />
+    <file path="/Dummy.txt" changelist="2f35e2dd-5c01-4ff0-bc74-7d807f993d60" time="1364837187887" ignored="false" />
     <file path="/layout.twig" changelist="2f35e2dd-5c01-4ff0-bc74-7d807f993d60" time="1364836170835" ignored="false" />
     <file path="/satelliet.twig" changelist="2f35e2dd-5c01-4ff0-bc74-7d807f993d60" time="1364836332565" ignored="false" />
     <file path="/ContactController.php" changelist="2f35e2dd-5c01-4ff0-bc74-7d807f993d60" time="1364835836684" ignored="false" />
@@ -22,7 +18,7 @@
     <file path="/HswareController.php" changelist="2f35e2dd-5c01-4ff0-bc74-7d807f993d60" time="1364835860353" ignored="false" />
     <file path="/SatellietController.php" changelist="2f35e2dd-5c01-4ff0-bc74-7d807f993d60" time="1364835892598" ignored="false" />
     <file path="/TweedehandsController.php" changelist="2f35e2dd-5c01-4ff0-bc74-7d807f993d60" time="1364835912098" ignored="false" />
-    <file path="/bootstrap.php" changelist="2f35e2dd-5c01-4ff0-bc74-7d807f993d60" time="1364835993420" ignored="false" />
+    <file path="/bootstrap.php" changelist="2f35e2dd-5c01-4ff0-bc74-7d807f993d60" time="1364838233537" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,19 +92,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="satelliet.twig" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/views/satelliet/satelliet.twig">
+      <file leaf-file-name="bootstrap.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/bootstrap.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="85" selection-start="262" selection-end="262" vertical-scroll-proportion="0.20100503">
+            <state line="14" column="40" selection-start="440" selection-end="440" vertical-scroll-proportion="0.3517588">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bootstrap.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/bootstrap.php">
+      <file leaf-file-name="config.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="65" selection-start="1015" selection-end="1015" vertical-scroll-proportion="0.0">
+            <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.625">
               <folding />
             </state>
           </provider>
@@ -159,9 +155,10 @@
         <option value="$PROJECT_DIR$/src/Fcom/Provider/Controller/HswareController.php" />
         <option value="$PROJECT_DIR$/src/Fcom/Provider/Controller/SatellietController.php" />
         <option value="$PROJECT_DIR$/src/Fcom/Provider/Controller/TweedehandsController.php" />
-        <option value="$PROJECT_DIR$/app/bootstrap.php" />
         <option value="$PROJECT_DIR$/src/views/layout.twig" />
         <option value="$PROJECT_DIR$/src/views/satelliet/satelliet.twig" />
+        <option value="$PROJECT_DIR$/config.php" />
+        <option value="$PROJECT_DIR$/app/bootstrap.php" />
       </list>
     </option>
   </component>
@@ -197,7 +194,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -338,12 +334,17 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
   </component>
   <component name="RunManager">
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
     <list size="0" />
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -363,7 +364,7 @@
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25322813" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25681493" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -439,13 +440,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/views/satelliet/satelliet.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="64" selection-start="241" selection-end="241" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/bootstrap.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="3" selection-start="890" selection-end="890" vertical-scroll-proportion="0.0">
@@ -509,13 +503,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/bootstrap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="65" selection-start="1015" selection-end="1015" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Fcom/Provider/Controller/ContactController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="73" selection-start="569" selection-end="569" vertical-scroll-proportion="0.0">
@@ -546,7 +533,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/views/satelliet/satelliet.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="85" selection-start="262" selection-end="262" vertical-scroll-proportion="0.20100503">
+        <state line="12" column="14" selection-start="374" selection-end="374" vertical-scroll-proportion="-7.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/bootstrap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="40" selection-start="440" selection-end="440" vertical-scroll-proportion="0.3517588">
           <folding />
         </state>
       </provider>
